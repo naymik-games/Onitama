@@ -1,4 +1,4 @@
-var cacheName = 'Space Cadet v1.00';
+var cacheName = 'Onitama v1.00';
 var filesToCache = [
   '/',
   '/index.html',
@@ -13,40 +13,27 @@ var filesToCache = [
   '/assets/fonts/Gamer.tff',
 
   '/assets/classes/settings.png',
-  '/assets/classes/deck.png',
-  '/assets/classes/hand.png',
+
 
   '/assets/scenes/preload.png',
   '/assets/scenes/startGame.png',
-  '/assets/scenes/UI.png',
 
 
-
-  '/assets/sprites/68x68-scanFlash.png',
-  '/assets/sprites/256x32-power-critical.png',
-  '/assets/sprites/144x44-explosions.png',
-
-  '/assets/sprites/armor_icons.png',
   '/assets/sprites/blank.png',
-  '/assets/sprites/cards.png',
+  '/assets/sprites/board.png',
   '/assets/sprites/caution.png',
-  '/assets/sprites/cell.png',
-  '/assets/sprites/crate_explode.png',
-  '/assets/sprites/dialogue.png',
-  '/assets/sprites/door_back.png',
-  '/assets/sprites/explosion.png',
-  '/assets/sprites/powerups.png',
-  '/assets/sprites/radiation.png',
-  '/assets/sprites/ranks.png',
-  '/assets/sprites/scan.png',
-  '/assets/sprites/smallscan.png',
-  '/assets/sprites/star_back.png',
+  '/assets/sprites/cards.png',
+  '/assets/sprites/cards2.png',
+  '/assets/sprites/cursor.png',
+  '/assets/sprites/modal.png',
+  '/assets/sprites/tiles.png',
 
 
 
 
 
-  //'https://cdn.jsdelivr.net/gh/photonstorm/phaser@3.10.1/dist/phaser.min.js'
+
+  'https://raw.githubusercontent.com/rexrainbow/phaser3-rex-notes/master/dist/rexmodalplugin.min.js'
 ];
 self.addEventListener('install', function (event) {
   console.log('sw install');

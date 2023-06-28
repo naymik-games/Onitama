@@ -1,9 +1,9 @@
 {
-  "name": "SpaceCadet",
-  "short_name": "SpaceCadet",
+  "name": "Onitama",
+  "short_name": "Onitama",
   "description": "Fight your way through",
-  "scope": "/SpaceCadet/",
-  "start_url": "/SpaceCadet/",
+  "scope": "/Onitama/",
+  "start_url": "/Onitama/",
   "background_color": "#000000",
   "theme_color": "#0f4a73",
   "display": "standalone",
